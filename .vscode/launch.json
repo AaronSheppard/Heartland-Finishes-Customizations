@@ -1,0 +1,36 @@
+{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                            "name": "cERP14_Sandbox",
+                            "type": "al",
+                            "request": "launch",
+                            "environmentType": "Sandbox",
+                            "environmentName": "cERP14_Sandbox",
+                            "breakOnError": true,
+                            "breakOnRecordWrite": false,
+                            "enableSqlInformationDebugger": true,
+                            "enableLongRunningSqlStatements": true,
+                            "longRunningSqlStatementsThreshold": 500,
+                            "numberOfSqlStatements": 10,
+                            "launchBrowser": true,                            
+                            "tenant": "8a17dc08-8456-41b4-87f6-5af3dd146410"                
+                           },
+                           {
+                            "name": "ads_HF_Sandbox",
+                            "type": "al",
+                            "request": "launch",
+                            "environmentType": "Sandbox",
+                            "environmentName": "ads_HF_Sandbox",
+                            "breakOnError": true,
+                            "breakOnRecordWrite": false,
+                            "enableSqlInformationDebugger": true,
+                            "enableLongRunningSqlStatements": true,
+                            "longRunningSqlStatementsThreshold": 500,
+                            "numberOfSqlStatements": 10,
+                            "launchBrowser": true,                            
+                            "tenant": ""                
+                           }
+
+                       ]
+}
